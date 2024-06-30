@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="css_device">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/css/css_device.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

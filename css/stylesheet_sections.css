@@ -1,0 +1,2143 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("../samples/black_and_white.jpg");
+
+}
+
+body h2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+body p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.topnav{
+    background-color: none;
+    overflow: hidden;
+    z-index: 3;
+
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: whitesmoke;
+    text-align: center;
+    padding: 45px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    z-index: 2;
+}
+
+.topnav a:hover{
+    color: rgb(243, 187, 2);
+}
+
+  
+.topnav .icon {
+    display: none; 
+}
+
+.logo{
+    max-width: 7em;   
+    padding: 0;
+    margin: 0;
+    float: left;
+}
+
+.price{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+}
+
+.coperto{
+    background-color: rgba(0, 0, 0, 0.708);
+    width: fit-content;
+}
+
+.coperto p{
+    padding: 10px;
+    font-size: 20px;
+}
+
+/*Button menu*/
+
+.btn-menu{
+    position:relative;
+    color: white;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    margin-top: 90px;
+    margin-left: 16em;
+    width: 600px;
+    transition: all 0.5s;
+    cursor: pointer;
+    border-radius: 20px;
+    background-color: rgb(243, 187, 2);
+    border-color:black;
+    box-shadow: 5px 7px rgba(0,0,0,0.47);
+}
+
+.btn-menu span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.btn-menu span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.btn-menu:hover span {
+    padding-right: 25px;
+}
+  
+.btn-menu:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+
+/*Le salse*/
+.salse{
+    width: 70%;
+    padding: 30px 70px;
+    font-size: 18px;
+    float: center;
+    margin: 30px 10em;
+    border-radius: 5px;
+    height: fit-content;
+    background-color: rgb(254, 213, 229);
+    border-left: 20px solid rgb(172, 12, 12);
+}
+
+.salse h2, .salse p{
+    float: center;
+    color: rgb(172, 12, 12);
+}
+
+/*info point*/
+.more-info{
+    width: 70%;
+    padding: 30px 70px;
+    font-size: 18px;
+    float: center;
+    margin: 30px 10em;
+    border-radius: 5px;
+    height: fit-content;
+    background-color: rgb(24, 105, 227);
+    border-left: 20px solid rgb(17, 56, 114);
+}
+
+.more-info h2, .more-info p{
+    float: center;
+	text-align:center;
+    color: whitesmoke;
+    padding-bottom: 13px;
+}
+
+
+
+/*Primi Piatti*/
+
+.primi-showcase .title-page h1{
+    font-size: 60px;
+    color: white;
+    text-transform: capitalize;
+    font-style: bold;
+    margin-top: 40px;
+    margin-bottom: 100px;
+    margin-left: 40%;
+}
+
+.primi-showcase{
+    background-image: url("../samples/primi_showcase.JPEG");
+    background-size: cover;
+    height: 50vh;
+    background-repeat: repeat-x;
+    width: 100%;
+    background-position: 40%;
+    
+}
+
+.primi-special-section{
+    background-image: url("../samples/yellow-back.jpg");
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: max-content;
+    background-position-y: -500px;
+    margin-bottom: 60px;
+}
+
+.primi-classics-container{
+    padding-top: 200px;
+    padding-left: 100px;
+    display: inline-grid;
+    gap: 30px;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    text-align: center;
+}
+
+.primi-special-container{
+    padding-left: 100px;
+    padding-top: 40px;
+    display: inline-grid;
+    gap: 30px;
+    grid-template-columns: repeat(2, 3fr);
+    align-items: center;
+    text-align: center;
+
+}
+
+.primi-classics-sub-container p{
+    background-color: rgb(255,217,0);
+    width: 60%;
+    padding: 30px 30px;
+    float: left;
+}
+
+.primi-classics-container img, .primi-special-container img{
+    width: 50%;
+    height: 60vh;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.primi-classics-container p, .primi-special-container p{
+    text-align: center;
+    font-size: 25px;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 20px 130px;
+    color: black;
+    text-align: center;
+}
+
+.primi-separatore{
+    background-color: brown;
+    height: 10vh;
+}
+
+.primi-separatore h2{
+    color: white;
+    text-transform: uppercase;
+    font-size: 30px;
+    text-align: center;
+    font-style: italic;
+    padding-top: 20px;
+}
+
+#cla-spe-3{
+    padding-left: 100px;
+}
+
+
+/*Finger Food section*/
+.fried-showcase .title-page h1{
+    font-size: 54px;
+    color: white;
+    -webkit-text-stroke: 1px brown;
+    text-transform: capitalize;
+    font-style: bold;
+    margin-top: 40px;
+    margin-bottom: 100px;
+    margin-left: 40%;
+}
+
+.fried-showcase{
+    background-image: url("../samples/fingerFood_showcase.JPEG");
+    background-size: cover;
+    height: 50vh;
+    background-repeat: repeat-x;
+    width: 100%;
+    background-position: 40%;
+}
+
+.fingerfood img{
+    width: 80%;
+    height: 60vh;
+    object-fit: cover;
+}
+
+.fingerfood-container{
+    margin: 30px 30px;
+    padding-top: 100px;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    text-align: center;
+}
+
+
+
+.fingerfood-text{
+    background-color: rgb(255, 196, 0);
+    width: 60%;
+    padding: 30px 70px;
+    float: center;
+    margin: 30px 30px;
+    border-radius: 5px;
+}
+
+
+.fingerfood-text p{
+    text-align: center;
+    font-size: 25px;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 10px;
+    color: black;
+    
+}
+
+.fingerfood-text h2{
+    text-align: center;
+    font-size: 30px;
+    text-transform: capitalize;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+}
+
+
+/*Hamburger section*/
+.hamburger-showcase .title-page h1{
+    font-size: 60px;
+    color: rgb(255, 221, 0);
+    text-transform: capitalize;
+    font-style: bold;
+    margin-top: 40px;
+    margin-bottom: 100px;
+    margin-left: 38%;
+}
+
+.hamburger-showcase{
+    background-image: url("../samples/hamburger_showcase.JPEG");
+    background-size: cover;
+    height: 50vh;
+    background-repeat: repeat-x;
+    width: 100%;
+    background-position: 40%;
+    
+}
+
+.burgers img, .burgers-maxi img, .burgers-special img{
+    width: 80%;
+    height: 50vh;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+
+
+.burger-container, .burger-maxi-container, .burger-special-container{
+    margin: 30px 30px;
+    padding-top: 100px;
+    display: inline-grid;
+    gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    text-align: center;
+}
+
+.burger-maxi-section{
+    background-color: brown;
+}
+
+
+.burger-maxi-text, .burger-text, .burger-special-text{
+    background-color: rgb(255, 196, 0);
+    width: 70%;
+    padding: 30px 70px;
+    float: center;
+    margin: 30px 30px;
+    border-radius: 5px;
+}
+
+
+.burgers p, .burgers-maxi p{
+    text-align: center;
+    font-size: 25px;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 10px;
+    color: black;
+    
+}
+
+.burgers h2, .burgers-maxi h2{
+    text-align: center;
+    font-size: 30px;
+    text-transform: capitalize;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+}
+
+.burger-special-text{
+    background-color: brown;
+    width: 70%;
+    padding: 30px 70px;
+    float: center;
+    margin: 30px;
+    border-radius: 5px;
+}
+
+.burger-special-text p{
+    text-align: center;
+    font-size: 25px;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 10px;
+    color: white;
+}
+
+.burger-special-text h2{
+    text-align: center;
+    font-size: 30px;
+    text-transform: capitalize;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+
+}
+
+.burger-special-section{
+    margin-top: 130px;
+    margin-bottom: none;
+}
+
+.burger-separatore{
+    background-color: brown;
+    height: 10vh;
+}
+
+.burger-maxi-separatore{
+    background-color: white;
+}
+
+.burger-special-separatore{
+    background-color: rgb(243, 187, 2);
+}
+
+.burger-maxi-separatore{
+    background-color: brown;
+    height: 10vh;
+    border-left: 15px double rgb(243, 187, 2);
+    border-right: 15px double rgb(243, 187, 2);
+    border-top: 2px solid rgb(243, 187, 2);
+    border-bottom: 2px solid rgb(243, 187, 2);
+}
+
+.burger-special-separatore{
+    background-color: rgb(243, 187, 2);
+    height: 10vh;
+    margin-bottom: none;
+    border-left: 15px double brown;
+    border-right: 15px double brown;
+    border-top: 2px solid brown;
+    border-bottom: 2px solid brown;
+}
+
+.burger-separatore h2, .burger-maxi-separatore h2, .burger-special-separatore h2{
+    color: white;
+    text-transform: uppercase;
+    font-size: 30px;
+    text-align: center;
+    font-style: italic;
+    padding-top: 20px;
+}
+
+
+
+/*TexMex section*/
+.texmex-showcase .title-page h1{
+    font-size: 60px;
+    color: white;
+    text-transform: capitalize;
+    font-style: bold;
+    margin-top: 40px;
+    margin-bottom: 100px;
+    margin-left: 40%;
+}
+
+.texmex-showcase{
+    background-image: url("../samples/texmex_showcase.JPEG");
+    background-size: cover;
+    height: 50vh;
+    background-repeat: repeat-x;
+    width: 100%;
+    background-position: 40%;
+}
+
+.texmex img, .texmex-nachos img{
+    width: 90%;
+    height: 50vh;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+
+
+.texmex-nachos-container{
+    margin: 30px 20px;
+    padding-top: 100px;
+    display: inline-grid;
+    gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    text-align: center;
+}
+
+.texmex-container{
+    margin: 30px 30px;
+    padding-top: 100px;
+    display: inline-grid;
+    gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    text-align: center;
+}
+
+.texmex-text{
+    background-color: rgb(255, 196, 0);
+    width: 70%;
+    padding: 30px 70px;
+    float: center;
+    margin: 30px 10px;
+    border-radius: 5px;
+}
+
+.texmex-nachos-text{
+    background-color: rgb(17, 56, 114);
+    width: 70%;
+    padding: 30px 70px;
+    float: center;
+    margin: 30px 30px;
+    border-radius: 5px;
+}
+
+.texmex-nachos-text p{
+    text-align: center;
+    font-size: 25px;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 10px;
+    color: whitesmoke;
+}
+
+.texmex-nachos-text h2{
+    text-align: center;
+    font-size: 30px;
+    text-transform: capitalize;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: whitesmoke;
+}
+
+.texmex-text p{
+    text-align: center;
+    font-size: 25px;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 10px;
+    color: black;
+    
+}
+
+.texmex-text h2{
+    text-align: center;
+    font-size: 30px;
+    text-transform: capitalize;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+}
+
+
+/*Grill section*/
+.grill-showcase .title-page h1{
+    font-size: 60px;
+    color: whitesmoke;
+    text-transform: capitalize;
+    font-style: bold;
+    margin-top: 40px;
+    margin-bottom: 100px;
+    margin-left: 44%;
+}
+
+.grill-showcase{
+    background-image: url("../samples/grill_showcase.JPEG");
+    background-size: cover;
+    height: 50vh;
+    background-repeat: repeat-x;
+    width: 100%;
+    background-position: 40%;
+}
+
+.grill img{
+    width: 70%;
+    height: 70vh;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.grill-container{
+    margin: 30px 30px;
+    padding-top: 100px;
+    display: inline-grid;
+    gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    text-align: center;
+}
+
+.grill-text{
+    background-color: brown;
+    width: 70%;
+    padding: 30px 70px;
+    float: center;
+    margin: 30px 30px;
+    border-radius: 5px;
+}
+
+.grill p{
+    text-align: center;
+    font-size: 25px;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 10px;
+    color: whitesmoke;
+    
+}
+
+.grill h2{
+    text-align: center;
+    font-size: 30px;
+    text-transform: capitalize;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: whitesmoke;
+}
+
+
+
+
+/*Veggy section*/
+.veggy-showcase .title-page h1{
+    font-size: 60px;
+    color: rgb(255, 225, 0);
+    text-transform: capitalize;
+    font-style: bold;
+    margin-top: 40px;
+    margin-bottom: 100px;
+    margin-left: 43%;
+}
+
+.veggy-showcase{
+    background-image: url("../samples/veggy_showcase_dark.jpg");
+    background-size: cover;
+    height: 50vh;
+    background-repeat: repeat-x;
+    width: 100%;
+    background-position: 40%;
+}
+
+.veggy img{
+    width: 70%;
+    height: 70vh;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.veggy-container{
+    margin: 30px 30px;
+    padding-top: 100px;
+    display: inline-grid;
+    gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    text-align: center;
+}
+
+.veggy-text{
+    background-color: rgb(28, 165, 28);
+    width: 70%;
+    padding: 30px 70px;
+    float: center;
+    margin: 30px 30px;
+    border-radius: 5px;
+}
+
+.veggy p{
+    text-align: center;
+    font-size: 25px;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 10px;
+    color: whitesmoke;
+    
+}
+
+.veggy h2{
+    text-align: center;
+    font-size: 30px;
+    text-transform: capitalize;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: whitesmoke;
+}
+
+
+
+
+/*Hot dog section*/
+.hotdog-showcase .title-page h1{
+    font-size: 60px;
+    color: white;
+    -webkit-text-stroke: 1px brown;
+    text-transform: capitalize;
+    font-style: bold;
+    margin-top: 40px;
+    margin-bottom: 100px;
+    margin-left: 40%;
+}
+
+.hotdog-showcase{
+    background-image: url("../samples/hotdog_showcase.JPEG");
+    background-size: cover;
+    height: 50vh;
+    background-repeat: repeat-x;
+    width: 100%;
+    background-position: 40%;
+}
+
+.hotdog img{
+    width: 80%;
+    height: 60vh;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.hotdog-container{
+    margin: 30px 30px;
+    padding-top: 100px;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    text-align: center;
+}
+
+
+
+.hotdog-text{
+    background-color: rgb(255, 196, 0);
+    width: 60%;
+    padding: 30px 70px;
+    float: center;
+    margin: 30px 30px;
+    border-radius: 5px;
+}
+
+
+.hotdog-text p{
+    text-align: center;
+    font-size: 25px;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 10px;
+    color: black;
+    
+}
+
+.hotdog-text h2{
+    text-align: center;
+    font-size: 30px;
+    text-transform: capitalize;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+}
+
+
+/*Salads section*/
+.salads-showcase .title-page h1{
+    font-size: 54px;
+    color: whitesmoke;
+    -webkit-text-stroke: 1px rgb(124, 27, 27);
+    text-transform: capitalize;
+    font-style: bold;
+    margin-top: 40px;
+    margin-bottom: 100px;
+    margin-left: 45%;
+}
+
+.salads-showcase{
+    background-image: url("../samples/salads_showcase.JPEG");
+    background-size: cover;
+    height: 50vh;
+    background-repeat: repeat-x;
+    width: 100%;
+    background-position: 40%;
+}
+
+.salads img{
+    width: 70%;
+    height: 70vh;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.salads-container{
+    margin: 30px 30px;
+    padding-top: 100px;
+    display: inline-grid;
+    gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    text-align: center;
+}
+
+.salads-text{
+    background-color: rgb(28, 165, 28);
+    width: 70%;
+    padding: 30px 70px;
+    float: center;
+    margin: 30px 30px;
+    border-radius: 5px;
+}
+
+.salads p{
+    text-align: center;
+    font-size: 25px;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 10px;
+    color: whitesmoke;
+    
+}
+
+.salads h2{
+    text-align: center;
+    font-size: 30px;
+    text-transform: capitalize;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: whitesmoke;
+}
+
+
+/*Celtics section*/
+.celtics-showcase{
+    background-image: url("../samples/celtics_showcase.JPEG");
+    background-size: cover;
+    height: 50vh;
+    background-repeat: repeat-x;
+    width: 100%;
+    background-position: 40%;
+    
+}
+
+.fingerfood-glutenfree{
+    background-color: brown;
+    margin: 30px 30px;
+    align-items: center;
+    text-align: center;
+}
+
+.burgers-glutenfree, .salads-glutenfree{
+    background-color: rgb(255, 196, 0);
+    margin: 30px 30px;
+    align-items: center;
+    text-align: center;
+}
+
+.texmex-glutenfree{
+    background-color: rgb(24, 105, 227);
+    margin: 30px 30px;
+    align-items: center;
+    text-align: center;
+}
+
+.grill-glutenfree{
+    background-color: whitesmoke;
+    margin: 30px 30px;
+    align-items: center;
+    text-align: center;
+}
+
+.veggy-glutenfree, .primi-glutenfree{
+    background-color: rgb(28, 123, 28);
+    margin: 30px 30px;
+    align-items: center;
+    text-align: center;
+}
+
+.hotdog-glutenfree{
+    background-color: brown;
+    margin: 30px 30px;
+    align-items: center;
+    text-align: center;
+}
+
+.dessert-glutenfree{
+    background-color: rgb(254, 213, 229);
+    margin: 30px 30px;
+    align-items: center;
+    text-align: center;
+}
+
+.glutenfree-text, .glutenfree-text-white{
+    padding: 30px;
+}
+
+.glutenfree-text p{
+    text-align: center;
+    font-size: 25px;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 10px;
+    color: black;
+}
+
+.glutenfree-text-white p{
+    text-align: center;
+    font-size: 25px;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 10px;
+    color: whitesmoke;
+}
+
+.glutenfree-text h2{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 30px;
+    text-transform: capitalize;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+}
+
+.glutenfree-text-white h2{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 30px;
+    text-transform: capitalize;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: whitesmoke;
+}
+
+.title-glutenfree, .title-glutenfree-white{
+    background-image: url("../images/retro_gluten.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 15vh;
+    margin-top: 0px;
+    padding-top: 60px;
+    text-align: center;
+    font-size: 40px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(255, 221, 0);
+    -webkit-text-stroke: 1px black;
+}
+
+
+/*Dessert section*/
+.dessert-showcase .title-page h1{
+    font-size: 54px;
+    color: white;
+    -webkit-text-stroke: 1px rgb(243, 187, 2);
+    text-transform: capitalize;
+    font-style: bold;
+    margin-top: 40px;
+    margin-bottom: 100px;
+    margin-left: 45%;
+}
+
+.dessert-showcase{
+    background-image: url("../samples/dessert_showcase.JPEG");
+    background-size: cover;
+    height: 50vh;
+    background-repeat: repeat-x;
+    width: 100%;
+    background-position: 40%;
+    
+}
+
+.desserts img{
+    width: 70%;
+    height: 70vh;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.dessert-container{
+    margin: 30px 30px;
+    padding-top: 100px;
+    display: inline-grid;
+    gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    text-align: center;
+}
+
+.dessert-text{
+    background-color: rgb(254, 213, 229);
+    width: 70%;
+    padding: 30px 70px;
+    float: center;
+    margin: 30px 30px;
+    border-radius: 5px;
+}
+
+.desserts p{
+    text-align: center;
+    font-size: 25px;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 10px;
+    color: rgb(172, 12, 12);
+    
+}
+
+.desserts h2{
+    text-align: center;
+    font-size: 30px;
+    text-transform: capitalize;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(172, 12, 12);
+}
+
+
+/*Drinks section*/
+.drinks-showcase .title-page h1{
+    font-size: 54px;
+    color: white;
+    -webkit-text-stroke: 1px black;
+    text-transform: capitalize;
+    font-style: bold;
+    margin-top: 40px;
+    margin-bottom: 100px;
+    margin-left: 40%;
+}
+
+.drinks-showcase{
+    background-image: url("../samples/drinks_showcase.JPEG");
+    background-size: cover;
+    height: 50vh;
+    background-repeat: repeat-x;
+    width: 100%;
+    background-position: 40%;
+}
+
+.bibite-classic{
+    background-image: url("../samples/bibite.JPEG");
+    background-position-y: 100px;
+    background-size: cover;
+    align-items: center;
+    border-radius: 20px;
+    box-sizing: content-box;
+    box-shadow: 25px 20px rgba(0,0,0,0.47);
+    margin: 50px 50px;
+}
+
+.bibite-beer-craft{
+    background-image: url("../images/blue_wall.jpg");
+    background-size: cover;
+    align-items: center;
+    border-radius: 20px;
+    box-sizing: content-box;
+    box-shadow: 25px 20px rgba(0,0,0,0.47);
+    margin: 50px 50px;
+}
+
+
+.box img{
+    width: 60%;
+    height: fit-content;
+    border-radius: 20px;
+}
+
+ .vini {
+    /* background-image: url("../samples/red_back_small.JPEG"); */
+    background-image: none;
+   background-color: rgb(172, 12, 12);
+    
+    background-position-x: 300px;
+    background-position: right;
+    background-size: cover;
+    align-items: center;
+    border-radius: 20px;
+    box-sizing: content-box;
+    box-shadow: 25px 20px rgba(0,0,0,0.47);
+    margin: 50px 50px;
+}
+
+ .vini .regione{
+    color: rgb(6, 6, 83);
+    font-size: 20px;
+    font-weight: lighter;
+    text-align: left;
+    font-style: italic;
+    font-family:'Times New Roman', Times, serif;
+    padding: 20px 50px;
+    margin-top: 40px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+ .vini .bibite-container .bibite-price h3{
+    width: fit-content;
+    margin-top: 15px;
+    padding: 10px 10px;
+}
+
+
+.bibite-classic h2, .bibite-beer-ouch h2, .bibite-beer-craft h2, .vini h2{
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    margin: auto;
+    padding: 20px 20px;
+    border: 6px solid rgb(92, 157, 255);
+    background-color: rgb(24, 105, 227);
+    border-radius: 20px;
+}
+
+.bibite-beer-ouch{
+    background-image: url("../samples/bibite.JPEG");
+    background-position-x: 300px;
+    background-position: right;
+    background-size: cover;
+    align-items: center;
+    border-radius: 20px;
+    box-sizing: content-box;
+    box-shadow: 25px 20px rgba(0,0,0,0.47);
+    margin: 50px 50px;
+}
+
+
+.bibite-classic h2, .bibite-beer-ouch h2, .bibite-beer-craft h2, .vini h2{
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    margin: auto;
+    padding: 20px 20px;
+    border: 6px solid rgb(92, 157, 255);
+    background-color: rgb(24, 105, 227);
+    border-radius: 20px;
+}
+
+.bibite-container, .artigianali-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 110px;
+    margin-left: 100px;
+}
+
+.bibite-container h3, .artigianali-container h3{
+    color: white;
+    font-size: 20px;
+    font-weight: lighter;
+    text-align: left;
+    font-style: italic;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 20px 40px;
+    margin: auto;
+}
+
+/*Cocktail section*/
+.cocktail-showcase .title-page h1{
+    font-size: 54px;
+    color: rgb(243, 187, 2);
+    -webkit-text-stroke: 1px rgb(66, 66, 66);
+    text-transform: capitalize;
+    font-style: bold;
+    margin-top: 40px;
+    margin-bottom: 100px;
+    margin-left: 35%;
+}
+
+.cocktail-showcase{
+    background-image: url("../samples/cocktail_showcase.JPEG");
+    background-size: cover;
+    height: 50vh;
+    background-repeat: repeat-x;
+    width: 100%;
+    background-position: 40%;
+    
+}
+
+.amari{
+    background-image: url("../images/blue_wall.jpg");
+    background-position-x: 300px;
+    background-position: right;
+    background-size: cover;
+    align-items: center;
+    border-radius: 20px;
+    box-sizing: content-box;
+    box-shadow: 25px 20px rgba(0,0,0,0.47);
+    margin: 50px 50px;
+}
+
+.cocktail{
+    background-image: url("../samples/bibite.JPEG");
+    background-position-x: 300px;
+    background-position: right;
+    background-size: cover;
+    align-items: center;
+    border-radius: 20px;
+    box-sizing: content-box;
+    box-shadow: 25px 20px rgba(0,0,0,0.47);
+    margin: 50px 50px;
+}
+
+
+.amari h2{
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    margin: auto;
+    padding: 20px 20px;
+    border: 6px solid rgb(92, 157, 255);
+    background-color: rgb(24, 105, 227);
+    border-radius: 20px;
+}
+
+.cocktail h2{
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    margin: auto;
+    padding: 20px 0px;
+    border: 6px solid rgb(92, 157, 255);
+    background-color: rgb(24, 105, 227);
+    border-radius: 20px;
+}
+
+.amari-container, .cocktail-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 110px;
+    margin-left: 100px;
+}
+
+.amari-container h3, .cocktail-container h3{
+    color: white;
+    font-size: 20px;
+    font-weight: lighter;
+    text-align: left;
+    font-style: italic;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 20px 40px;
+    margin: auto;
+}
+
+/*Footer section*/
+
+footer{
+    background-color: rgba(245, 245, 245, 0.715);
+    height: 30vh;
+    
+}
+.footer-section{
+    display: flexbox;
+}
+
+.footer-section h2, .footer-section p, .footer-section a{
+    
+    color: rgb(61, 60, 60);
+    text-align: center;
+}
+
+.footer-section p{
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px 20px;
+}
+
+.footer-section h2{
+    text-transform: uppercase;
+    padding-top: 30px;
+}
+
+.footer-section a{
+    font-size: 25px;
+}
+
+
+.footer-section .contacts{
+    float: center;
+}
+
+.footer-section .social, .footer-section .social a{
+    float: center;
+    text-align: center;
+}
+
+.footer-section .position{
+    float: right;
+}
+
+
+
+
+
+@media (max-device-width: 768px) {
+
+   .logo{
+	max-width: 17em;
+   }
+
+   /*Topnav stuff*/
+   .topnav a {
+        display: none;
+	font-size: 50px;
+        
+    }
+
+    .coperto{
+	width: 50%;
+    }
+ 
+    .coperto p{
+	font-size: 40px;
+     }
+
+    .topnav a.icon {
+      float: right;
+      display: block;
+      
+    }
+  
+    .topnav.responsive {
+        position: relative;
+    }
+    
+    .topnav.responsive a.icon {
+        display: block;
+        float: right;
+        right: 0;
+        top: 0; 
+        
+    }
+
+    .topnav.responsive a{
+        
+        width: 110%;
+        background-color:  rgba(29, 24, 32, 0.47);
+        float: right;
+        display: block;
+        text-align: center;
+        padding: 19px;
+        
+    }
+
+    .topnav.responsive a:hover{
+        color:rgb(243, 187, 2);
+    }
+
+
+    /*Button menu*/
+    .btn-menu{
+        position:relative;
+        color: white;
+        text-align: center;
+        font-size: 28px;
+        padding: 20px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        margin-left: 130px;
+        width: 900px;
+        transition: all 0.5s;
+        cursor: pointer;
+        border-radius: 20px;
+        background-color: rgb(243, 187, 2);
+        border-color:black;
+        box-shadow: 5px 7px rgba(0,0,0,0.47);
+    }
+
+    /*Footer stuff*/
+    footer{
+        height: 20vh;
+	width: 112%;
+    }
+
+    .footer-section{
+        display: block;
+    }
+
+
+
+
+    /*Le salse*/
+    .salse{
+        width: 80%;
+        margin-top: 0px;
+        margin-left: 50px;
+    }
+
+    .salse p{
+	font-size: 40px;
+    }
+
+.salse h2{
+	font-size: 50px;
+}
+
+
+ /*info point*/
+    .more-info{
+        width: 80%;
+        margin-top: 0px;
+        margin-left: 50px;
+    }
+
+    .more-info p{
+	font-size: 40px;
+    }
+
+.more-info h2{
+	font-size: 50px;
+}
+
+    /*Primi section*/
+
+    #primi-body .title-page h1{
+        margin-right: 40px;
+    }
+
+    .primi-showcase{
+        height: 40vh;
+	width: 112%;
+    }
+
+
+    .primi-classics-container, .primi-special-container{
+        display: block;
+        margin-bottom: 100px;
+    }
+    
+    .primi-classics-sub-container{
+        display: grid;
+        background-color: white;
+        
+        gap: 20px;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .primi-classics-container img{
+        width: 100%;
+        height: 20vh;
+        margin-bottom: 30px;
+        object-fit: cover;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .primi-special-container img{
+        width: 100%;
+        height: 30vh;
+        margin-bottom: 30px;
+        object-fit: cover;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .primi-classics-container p{
+        text-align: center;
+        margin:0;
+        margin-top: 80px;
+        margin-bottom: 20px; 
+        padding: 0;
+	font-size: 40px;
+    }
+
+    .primi-special-section .primi-special-container{
+        background-color:rgb(255,217,0);
+        margin: 0;
+	width:100%;
+        padding: 50px 60px;
+    }
+
+    .primi-special-section h2{
+	font-size: 50px;
+    }
+ 
+   .primi-special-section .primi-separatore{
+	width:112%;
+    }
+
+    .primi-classics-sub-container p{
+        background-color: white;
+        width: 80%;
+	font-size: 40px;
+    }
+
+    .primi-special-container p{
+        font-size: 40px;
+        color: black;
+        width: 100%;
+        font-style: italic;
+        text-align: center;
+        margin-bottom: 25px;
+        margin-top: 15px;
+        margin-left: 0;
+        padding-bottom: 20px;
+    }
+
+    #cla-spe-3{
+        padding: 0;
+        margin: 0;
+    }
+
+    /*Finger Food section*/
+    .fried-showcase{
+        background-image: url("../samples/fingerFood_showcase.JPEG");
+        background-size: cover;
+        height: 40vh;
+        background-repeat: repeat-x;
+        width: 112%;
+        background-position: 40%;
+    }
+
+    .fingerfood img{
+        width: 100%;
+        height: 50vh;
+        object-position: -20px -330px;
+	margin-bottom: 0px;
+    }
+
+     
+    .fingerfood-container{
+        display: block;
+        margin-bottom: 100px;
+        margin-right: 100px;
+    }
+
+
+    .fingerfood-text{
+        width: 80%;
+        padding: 0px 10px;
+	margin-top: 0px;
+	padding-top: 0px;
+        float: center;
+    }
+
+.fingerfood-text h2{
+	font-size: 50px;
+}
+
+.fingerfood-text p{
+	font-size: 40px;
+}
+
+.fried-showcase .title-page h1{
+	font-size: 70px;
+	margin-left: 35%;
+}
+
+    .fingerfood{
+        background-color: rgb(255, 196, 0);
+        width: 100%;
+        padding: 10px 10px;
+        float: center;
+        margin-left: 30px;
+        margin-bottom: 150px;
+        border-radius: 15px;
+    }
+
+    /*Hamburger section*/
+
+    .hamburger-showcase{
+        height: 40vh;
+	width: 112%;
+    }
+
+    .hamburger-showcase .title-page h1{
+	font-size:70px;
+	margin-top: 20%;
+        margin-left: 35%;
+    }
+
+
+    .burgers img, .burgers-maxi img, .burgers-special img{
+        width: 100%;
+        height: 50vh;
+    }
+
+     
+    .burger-container, .burger-maxi-container, .burger-special-container{
+        display: inline-block;
+        margin-bottom: 100px;
+        margin-right: 20px;
+    }
+
+
+    .burger-text, .burger-maxi-text{
+        width: 80%;
+        padding: 20px 30px;
+        float: center;
+        margin-bottom: 100px;
+    }
+
+.burger-text p, .burger-maxi-text p{
+	font-size: 40px;
+}
+
+.burger-text h2, .burger-maxi-text h2{
+	font-size: 50px;
+}
+
+
+
+    .burger-special-text{
+        background-color: brown;
+        width: 80%;
+        padding: 20px 10px;
+        float: center;
+        margin-bottom: 100px;
+margin-left: 70px;
+    }
+
+    .burger-special-text p, .burger-special-text h2{
+        color: white;
+    }
+
+.burger-special-text p{
+	font-size: 40px;
+}
+
+.burger-special-text h2{
+	font-size: 50px;
+}
+
+    .burgers, .burgers-maxi{
+        background-color: rgb(255, 196, 0);
+        width: 90%;
+        padding: 0px 0px;
+        margin-left: 70px;
+        float: center;
+        margin-bottom: 150px;
+        border-radius: 30px;
+    }
+
+.burger-maxi-section{
+	width: 112%;
+}
+
+.burger-maxi-separatore, .burger-special-separatore{
+	width: 109%;
+}
+
+.burger-maxi-separatore h2, .burger-special-separatore h2{
+	font-size: 70px;
+}
+
+
+    .burgers-special{
+        background-color: brown;
+        width: 100%;
+        padding: 0px 0px;
+        margin-left: 30px;
+        float: center;
+        margin-bottom: 150px;
+        border-radius: 30px;
+    }
+
+    .burgers p{
+        margin-bottom: 20px;
+    }
+
+    /*Texmex section*/
+
+    .texmex-showcase{
+        height: 50vh;
+	width: 112%;
+    }
+
+    .texmex-showcase .title-page h1{
+        margin-left: 40%;
+	margin-top: 35%;
+	font-size: 70px;
+    }
+
+    .texmex img, .texmex-nachos img{
+        width: 100%;
+        height: 60vh;
+    }
+
+    .texmex{
+        background-color: rgb(255, 196, 0);
+        width: 100%;
+        float: center;
+        padding: 0px 0px;
+        padding-bottom: 2px;
+        margin-bottom: 130px;
+        border-radius: 30px;
+    }
+
+    .texmex-nachos{
+        background-color: rgb(17, 56, 114);
+        width: 100%;
+        float: center;
+        padding: 0px 0px;
+        padding-bottom: 2px;
+        margin-bottom: 130px;
+        border-radius: 30px;
+    }
+
+    .texmex-container, .texmex-nachos-container{
+        display: block;
+        margin-bottom: 100px;
+	margin-left: 100px;
+    }
+
+    .texmex-text{
+        background-color: none;
+        width: 80%;
+        padding: 10px 30px;
+        float: center;
+        margin-bottom: 100px;
+	margin-left: 70px;
+    }
+
+    .texmex-nachos-text{
+        background-color: none;
+        width: 80%;
+        padding: 10px 10px;
+        float: center;
+        margin-bottom: 100px;
+	margin-left: 70px;
+    }
+
+	.texmex-nachos-text p, .texmex-text p{
+	font-size: 40px;
+}
+
+.texmex-nachos-text h2, .texmex-text h2{
+	font-size: 50px;
+}
+
+
+
+
+
+    /*Grill section*/
+    .grill-showcase{
+        height: 50vh;
+	width: 112%;
+    }
+
+    .grill-showcase .title-page h1{
+        margin-left: 45%;
+	margin-top: 30%;
+	font-size: 100px;
+    }
+
+    .grill{
+        background-color: brown;
+        width: 100%;
+        float: center;
+        margin-bottom: 150px;
+	margin-left: 7%;
+        border-radius: 30px;
+    }
+
+    .grill img{
+        width: 100%;
+        height: 60vh;
+    }
+
+    .grill-container{
+        display: block;
+        margin-bottom: 100px;
+    }
+
+    .grill-text{
+        width: 80%;
+        padding: 20px 40px;
+        float: center;
+        margin-bottom: 100px;
+    }
+
+	.grill-text h2{
+		font-size: 50px;
+	}
+
+	.grill-text p{
+		font-size: 40px;
+	}
+
+
+    /*Veggy section*/
+    .veggy-showcase{
+        height: 50vh;
+	width: 112%;
+    }
+
+    .veggy-showcase .title-page h1{
+        margin-left: 38%;
+	margin-top: 27%;
+	font-size: 100px;
+    }
+
+    .veggy{
+        background-color: rgb(28, 165, 28);
+        width: 100%;
+        float: center;
+        margin-bottom: 150px;
+        border-radius: 30px;
+    }
+
+    .veggy img{
+        width: 100%;
+        height: 60vh;
+    }
+
+    .veggy-container{
+        display: block;
+        margin-bottom: 100px;
+	margin-left: 12%;
+    }
+
+    .veggy-text{
+        width: 80%;
+        padding: 20px 20px;
+        float: center;
+        margin-bottom: 100px;
+    }
+
+	.veggy-text h2{
+		font-size: 50px;
+	}
+
+	.veggy-text p{
+		font-size: 40px;
+	}
+
+
+
+    /*Hot dog section*/
+    .hotdog-showcase{
+        height: 50vh;
+	width: 112%;
+    }
+
+    .hotdog-showcase .title-page h1{
+        margin-left: 32%;
+	margin-top: 30%;
+	font-size: 100px;
+    }
+
+    .hotdog img{
+	border-radius: 12px;
+        width: 100%;
+        height: 50vh;
+    }
+
+     
+    .hotdog-container{
+        display: block;
+        margin-bottom: 100px;
+        margin-right: 100px;
+	margin-left: 10%;
+    }
+
+
+    .hotdog-text{
+        width: 80%;
+        padding: 20px 20px;
+        float: center;
+    }
+
+	.hotdog-text h2{
+		font-size: 50px;
+	}
+
+	.hotdog-text p{
+		font-size: 40px;
+	}
+
+    .hotdog{
+        background-color: rgb(255, 196, 0);
+        width: 100%;
+        padding: 10px 10px;
+        float: center;
+        margin-left: 30px;
+        margin-bottom: 150px;
+        border-radius: 15px;
+    }
+
+    /*Salads section*/
+    .salads-showcase{
+        height: 50vh;
+	width: 112%;
+    }
+
+    .salads-showcase .title-page h1{
+        margin-left: 40%;
+	margin-top: 30%;
+	font-size: 100px;
+    }
+
+    .salads{
+        background-color: rgb(28, 165, 28);
+        width: 100%;
+        float: center;
+        margin-bottom: 150px;
+	margin-left: 9%;
+        border-radius: 30px;
+    }
+
+    .salads img{
+        width: 100%;
+        height: 60vh;
+    }
+
+    .salads-container{
+        display: block;
+        margin-bottom: 100px;
+    }
+
+    .salads-text{
+        width: 80%;
+        padding: 20px 30px;
+        float: center;
+        margin-bottom: 100px;
+    }
+
+	.salads-text h2{
+		font-size: 50px;
+	}
+
+	.salads-text p{
+		font-size: 40px;
+	}
+
+	/*Gluten section*/
+    
+    .celtics-showcase{
+        width: 112%;
+        height: 50vh;
+    }
+
+.primi-glutenfree{
+	margin-left: 10%;
+}
+
+
+    .glutenfree-text h2, .glutenfree-text-white h2{
+        font-size: 60px;
+    }
+
+    .glutenfree-text p, .glutenfree-text-white p{
+        font-size: 40px;
+    }
+
+    .fingerfood-glutenfree, .burgers-glutenfree, .texmex-glutenfree, .grill-glutenfree, .veggy-glutenfree, .hotdog-glutenfree, .salads-glutenfree, .dessert-glutenfree{
+        margin-left: 10%;
+    }
+
+
+    /*Dessert section*/
+
+    .dessert-showcase{
+        height: 50vh;
+	width: 112%;
+    }
+
+    .dessert-showcase .title-page h1{
+        margin-left: 35%;
+	font-size: 100px;
+    }
+
+    .desserts{
+        background-color: rgb(254, 213, 229);
+        width: 100%;
+        float: center;
+        margin-bottom: 150px;
+        border-radius: 30px;
+    }
+
+    .desserts img{
+        width: 100%;
+        height: 60vh;
+    }
+
+    .dessert-container{
+        display: block;
+        margin-bottom: 100px;
+	margin-left: 12%;
+    }
+
+    .dessert-text{
+        width: 80%;
+        padding: 20px 20px;
+        float: center;
+        margin-bottom: 100px;
+   
+    }
+
+.dessert-text h2{
+	font-size: 50px;
+}
+
+.dessert-text p{
+	font-size: 40px;
+}
+
+    /*Drinks section*/
+    .drinks-showcase .title-page h1{
+        margin-left: 3%;
+        text-align: center;
+	font-size: 100px;
+	margin-top: 12%;
+    }
+
+    .drinks-showcase{
+        background-image: url("../samples/drinks_showcase.JPEG");
+        background-size: cover;
+        height: 50vh;
+        background-repeat: repeat-x;
+        width: 112%;
+        background-position: 40%;
+        
+    }
+
+    .bibite-container{
+        margin-top: 90px;
+        margin-left: 70px;
+    }
+
+	.bibite-container h3, .artigianali-container h3, .vini h3{
+		font-size: 35px;
+	}
+
+    .bibite-beer-ouch{
+        height: 80vh;
+    }
+
+.vini{
+        height:190vh;
+    }
+
+.vini h3, .vini .regione{
+	font-size: 50px;
+}
+
+
+ .bibite-beer-ouch .bibite-container{
+        margin-top: 0px;
+        margin-left: 0;
+    }
+.vini .bibite-container h3{
+padding-top: 5px;
+margin-top:0px;
+}
+
+
+    .bibite-beer-ouch .bibite-container, .vini .bibite-container{
+        margin-top: 250px;
+        margin-left: 0;
+    }
+
+    .bibite-beer-craft .bibite-container,.bibite-beer-craft .artigianali-container{
+        margin-left: 30px;
+    }
+
+
+    .bibite-beer-craft h3{
+        margin: 0px;
+        padding-left: 0px;
+        width: 100%;
+    }
+
+    .bibite-beer-craft{
+        width: 80%;
+        column-gap: 90px;
+    }
+
+    .artigianali-container{
+        display: block;
+	width: 95%;
+    }
+
+    .box{
+        margin: 0px;
+        margin-bottom: 80px;
+        padding: 0px;
+    }
+
+    .box img{
+        width: 60%;
+        height: 30vh;
+        position: relative;
+    }
+
+    /*Cocktail section*/
+    .cocktail-showcase .title-page h1{
+        margin-left: 20%;
+	margin-top: 20%;
+	font-size: 100px;
+    }
+
+    .cocktail-showcase{
+        background-image: url("../samples/cocktail_showcase.JPEG");
+        background-size: cover;
+        height: 50vh;
+        background-repeat: repeat-x;
+        width: 112%;
+        background-position: 40%;
+        
+    }
+
+
+    .amari-container{
+        height: 90vh;
+	margin-left: 10%;
+    }
+
+    .cocktail-container{
+        height: 50vh;
+    }
+
+    .cocktail .cocktail-container, .amari .amari-container{
+        margin-top: 0px;
+        margin-left: 30px;
+	padding-left: 80px;
+	padding-top: 10px;
+    }
+
+    .cocktail-container h3, .amari-container h3{
+        padding-bottom: 10px;
+        padding-top: 10px;
+	font-size: 40px;
+    }
+
+    .btn-menu{
+	width: 80%;
+    }
+
+    .btn-menu a, .btn-menu span{
+	font-size: 50px;
+     }
+
+}
