@@ -5,6 +5,7 @@
         <meta name="keywords" content="menu', website, rodeo, burgeria, fast food, food porn, hamburger, gioia tauro, panini, tex mex">
 
         <link rel="stylesheet" href="css/stylesheet.css">
+        <link rel="stylesheet" href="css/stylesheet_general.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <script src="js/script.js"></script>
 
@@ -16,15 +17,19 @@
         <header>
             <div class="menu-showcase">
                 <img class="logo" src="images/logo.png" alt="logo">
-                <div class="topnav" id="myTopnav">
-                    <a href="javascript:void(0);" class="icon" onclick="topnavFunction()">
-                    <i class="fa fa-bars"></i></a>
-                    <a href="index.html">Home</a>
-                    <a href="#">Menu'</a>
-                    <a href="babies.html">Menu' Bambini</a>
-                    <a href="promo.html">Promozioni</a>
-                    <!-- <a href="en/index.html">English Version</a> -->
-                </div>
+                <nav>
+                    <input type="checkbox" id="check">
+                    <label for="check" class="checkbtn">
+                        <i class="fa fa-bars"></i>
+                    </label>
+                    
+                    <ul>
+                        <li><a class="active" href="index.html">Home</a></li>
+                        <li><a href="menu.html">Menu'</a></li>
+                        <li><a href="babies.html">Menu' Bambini</a></li>
+                        <li><a href="promo.html">Promozioni</a></li>
+                    </ul>
+                </nav>
                 <div class="title-page">
                     <h1>Il menu'</h1>
                 </div>
@@ -33,12 +38,11 @@
         <div class="menu-sections">  
             <div class="promo-slide">
                 <figure><img src="samples/proms.JPEG"></figure>
-
-              
+            
                 <div class="promo-div">
                     <br>
                     <div >
-                        <a href="promo.html"><button class="btn-promo">Vai alle promozioni</button></a>
+                        <a href="promo.html"><button class="btn-promo">Vai alle promozioni!</button></a>
                         
                     </div>
                 </div>
@@ -50,8 +54,7 @@
                     <p>Voglia di cambiare? Prova uno dei nostri gustosi primi piatti</p>
                     <br>
                     <div >
-                        <a href="pasta.html"><button class="btn">scopri </button></a>
-                        
+                        <a href="pasta.html"><button class="btn">scopri </button></a>   
                     </div>
                 </div>
                 <figure><img src="samples/pasta.jpg"></figure>
@@ -230,17 +233,20 @@
                     <h2>Contatti</h2>
                     <p>Chiamaci o prenota direttamente su Whatsapp tramite il numero di telefono! <br> tel. 334\7217228 o al 0966\52233</p>
                 </div>
-
+        
                 <div class="position">
                     <h2>La nostra posizione</h2>
-                    <p>Ci troviamo in via SP.1, 336 <br> Uscita autostradale direzione Gioia Tauro  avanzate per circa 600 metri fino ad intravedere il nostro locale alla vostra sinistra</p>
+                    <p>Ci troviamo in via SP.1, 336 <br> Uscita autostradale direzione Gioia Tauro avanzate per circa 600 metri fino ad intravedere il nostro locale alla vostra sinistra</p>
                 </div>
-
+        
                 <div class="social">
                     <h2>Social</h2>
-                    <a href="https://www.facebook.com/greaseamericangrillgioiatauro/?locale=it_IT" target="_blank" class="fa fa-facebook"></a>
-                    <a href="https://www.instagram.com/greaseamericangrill_gioiatauro/?hl=it" target="_blank" class="fa fa-instagram"></a>
+                    <a href="https://www.facebook.com/rodeodrivediner.gioiatauro/?locale=it_IT" target="_blank" class="fa fa-facebook"></a>
+                    <a href="https://www.instagram.com/rodeodrive_diner/" target="_blank" class="fa fa-instagram"></a>
                 </div>
+            </div>
+            <div class="footer-copyright">
+                <p>&copy; 2024 Rodeo Drive Diner, realizzato a cura di Martina Giacobbe. Tutti i diritti riservati.</p>
             </div>
         </footer>
     </body>

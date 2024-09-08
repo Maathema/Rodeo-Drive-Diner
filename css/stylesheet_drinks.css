@@ -1,0 +1,336 @@
+/*Drinks section*/
+.drinks-showcase .title-page h1{
+    font-size: 6em;
+    color: white;
+    -webkit-text-stroke: 1px black;
+    text-transform: capitalize;
+    font-style: bold;
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.drinks-showcase{
+    background-image: url("../samples/drinks_showcase.JPEG");
+    background-size: cover;
+    height: cover;
+    background-repeat: repeat-x;
+    width: 100%;
+    background-position: 40%;
+}
+
+.bibite-classic{
+    background-color: rgb(61, 94, 201);
+    max-width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    border-radius: 20px;
+    box-sizing: content-box;
+    box-shadow: 25px 20px rgba(0,0,0,0.47);
+}
+
+.bibite-classic .bibite-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.bibite-classic .bibite-container .bibite-text {
+    flex-grow: 1;
+}
+
+.bibite-classic .bibite-container .bibite-text h3, 
+.bibite-classic .bibite-container .bibite-price h3{
+    font-size: 2em;
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.bibite-classic h2{
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    margin: auto;
+    padding: 20px 20px;
+    border: 6px solid rgb(92, 157, 255);
+    background-color: rgb(24, 105, 227);
+    border-radius: 20px;
+}
+
+.bibite-classic .bibite-container .bibite-price, .draft-beer .draft-container .bibite-price {
+    margin-left: 20px;
+    text-align: right;
+}
+
+.draft-beer{
+    background-color: rgb(255, 225, 0);
+    max-width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    border-radius: 20px;
+    box-sizing: content-box;
+    box-shadow: 25px 20px rgba(0,0,0,0.47);
+}
+
+.draft-beer .draft-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.draft-beer .draft-container h3 {
+    font-size: 2em;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.draft-beer h2{
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    margin: auto;
+    padding: 20px 20px;
+    border: 6px solid rgb(200, 153, 0);
+    background-color: rgb(255, 196, 0);
+    border-radius: 20px;
+}
+
+.bottle-beer{
+    background-color: rgb(151, 1, 1);
+    max-width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    border-radius: 20px;
+    box-sizing: content-box;
+    box-shadow: 25px 20px rgba(0,0,0,0.47);
+}
+
+.bottle-beer .bottle-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.bottle-beer .bottle-container h3{
+    font-size: 2em;
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.bottle-beer h2{
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    margin: auto;
+    padding: 20px 20px;
+    border: 6px solid rgb(237, 77, 77);
+    background-color: red;
+    border-radius: 20px;
+}
+
+.craft-beer{
+    background-color: rgb(61, 94, 201);
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    border-radius: 20px;
+    box-sizing: content-box;
+    box-shadow: 25px 20px rgba(0,0,0,0.47);
+}
+
+.craft-beer .craft-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.craft-beer h2{
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    margin: auto;
+    padding: 20px 20px;
+    border: 6px solid rgb(92, 157, 255);
+    background-color: rgb(24, 105, 227);
+    border-radius: 20px;
+}
+
+.craft-beer .craft-container h3, .craft-beer .craft-container .bibite-price h3{
+    font-size: 1.8em;
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: lighter;
+}
+
+.vini {
+    background-color: rgb(255, 225, 0);
+    max-width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 20px;
+    box-sizing: content-box;
+    box-shadow: 25px 20px rgba(0,0,0,0.47);
+}
+
+.vini-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.vini .regione{
+    margin-bottom: 5px;
+    margin-top: 25px;
+}
+
+.vini h2{
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    margin: auto;
+    padding: 20px 20px;
+    border: 6px solid rgb(200, 153, 0);
+    background-color: rgb(255, 196, 0);
+    border-radius: 20px;
+}
+
+.vini-container h3{
+    font-size: 2em;
+    margin: 0;
+    padding:0;
+    color: #333;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/*Cocktails section*/
+.cocktail-showcase .title-page h1{
+    font-size: 6em;
+    color: black;
+    -webkit-text-stroke: 1px black;
+    text-transform: capitalize;
+    font-style: bold;
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cocktail-showcase{
+    background-image: url("../samples/cocktail_showcase.JPEG");
+    background-size: cover;
+    height: cover;
+    background-repeat: repeat-x;
+    width: 100%;
+    background-position: 40%;
+}
+
+.amari{
+    background-color: rgb(61, 94, 201);
+    max-width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    border-radius: 20px;
+    box-sizing: content-box;
+    box-shadow: 25px 20px rgba(0,0,0,0.47);
+}
+
+.amari .amari-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.amari .amari-container .amari-text {
+    flex-grow: 1;
+}
+
+.amari .amari-container .amari-text h3, 
+.amari .amari-container .amari-price h3{
+    font-size: 2em;
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.amari h2{
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    margin: auto;
+    padding: 20px 20px;
+    border: 6px solid rgb(92, 157, 255);
+    background-color: rgb(24, 105, 227);
+    border-radius: 20px;
+}
+
+.amari .amari-container .amari-price {
+    margin-left: 20px;
+    text-align: right;
+}
+
+.cocktail{
+    background-color: rgb(255, 225, 0);
+    max-width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    border-radius: 20px;
+    box-sizing: content-box;
+    box-shadow: 25px 20px rgba(0,0,0,0.47);
+}
+
+.cocktail .cocktail-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.cocktail .cocktail-container h3 {
+    font-size: 2em;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.cocktail h2{
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    margin: auto;
+    padding: 20px 20px;
+    border: 6px solid rgb(200, 153, 0);
+    background-color: rgb(255, 196, 0);
+    border-radius: 20px;
+}
+
+

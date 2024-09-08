@@ -1,126 +1,3 @@
-*{
-    padding: 0;
-    margin: 0;
-    
-}
-
-body{
-    font-family: Arial, Helvetica, sans-serif;
-    background-image: url("../samples/black_and_white.jpg");
-
-}
-
-body h2{
-    font-family: Arial, Helvetica, sans-serif;
-    color: white;
-}
-
-body p{
-    font-family: Arial, Helvetica, sans-serif;
-    color: white;
-}
-
-
-a{
-    text-decoration: none;
-    color: white;
-}
-
-
-.topnav{
-    background-color: none;
-    overflow: hidden;
-    z-index: 3;
-
-}
-
-.topnav a {
-    float: left;
-    display: block;
-    color: whitesmoke;
-    text-align: center;
-    padding: 45px 16px;
-    text-decoration: none;
-    font-size: 17px;
-    z-index: 2;
-}
-
-.topnav a:hover{
-    color: rgb(243, 187, 2);
-}
-
-  
-.topnav .icon {
-    display: none; 
-}
-
-.logo{
-    max-width: 7em;   
-    padding: 0;
-    margin: 0;
-    float: left;
-}
-
-.coperto{
-    background-color: rgba(0, 0, 0, 0.708);
-    width: fit-content;
-}
-
-.coperto p{
-    padding: 10px;
-    font-size: 20px;
-}
-
-.price{
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-weight: bold;
-}
-
-/*Footer section*/
-
-footer{
-    background-color: rgba(245, 245, 245, 0.715);
-    height: 30vh;
-    
-}
-.footer-section{
-    display: flexbox;
-}
-
-.footer-section h2, .footer-section p, .footer-section a{
-    
-    color: rgb(61, 60, 60);
-    text-align: center;
-}
-
-.footer-section p{
-    font-family: 'Times New Roman', Times, serif;
-    padding: 10px 20px;
-}
-
-.footer-section h2{
-    text-transform: uppercase;
-    padding-top: 30px;
-}
-
-.footer-section a{
-    font-size: 25px;
-}
-
-
-.footer-section .contacts{
-    float: center;
-}
-
-.footer-section .social, .footer-section .social a{
-    float: inline-end;
-    text-align: center;
-}
-
-.footer-section .position{
-    float: right;
-}
-
 
 /*Menù bambini*/
 
@@ -235,13 +112,15 @@ footer{
 
 .promo-showcase .title-page h1{
     font-size: 54px;
-    color: #7bcfeb;
+    /* color: #7bcfeb; */
+    color: rgb(217, 82, 105);
     text-transform: capitalize;
     font-style: bold;
     margin-top: 40px;
     margin-bottom: 100px;
     text-align:center;
 }
+
 
 .promo-section-1{
     /*display: inline-grid;
@@ -299,53 +178,7 @@ footer{
 }
 
 
-
-
-
-
-
-
-
-@media (max-device-width: 768px) {
-
-     .topnav a {
-        display: none;
-	font-size: 50px;
-        
-    }
-
-    .topnav a.icon {
-      float: right;
-      display: block;
-      
-    }
-  
-    .topnav.responsive {
-        position: relative;
-    }
-    
-    .topnav.responsive a.icon {
-        display: block;
-        float: right;
-        right: 0;
-        top: 0; 
-        
-    }
-
-    .topnav.responsive a{
-        
-        width: 110%;
-        background-color:  rgba(29, 24, 32, 0.47);
-        float: right;
-        display: block;
-        text-align: center;
-        padding: 19px;
-        
-    }
-
-    .topnav.responsive a:hover{
-        color:rgb(243, 187, 2);
-    }
+@media (max-width: 980px) {
 
 
     /*Menù Bambini*/
@@ -369,23 +202,15 @@ footer{
 		font-size: 40px;
 	}
 
-    /*Footer stuff*/
-    footer{
-        height: 15vh;
-	width:100%;
-    }
+   
 
-    .footer-section{
-        display: block;
-    }
-
-.coperto{
-	width: 50%;
-    }
- 
-    .coperto p{
-	font-size: 40px;
-     }
+    .coperto{
+        width: 50%;
+        }
+    
+        .coperto p{
+        font-size: 40px;
+        }
 
     /*Promo stuff*/
 

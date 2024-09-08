@@ -5,6 +5,7 @@
         <meta name="keywords" content="menu', website, rodeo, burgeria, fast food, food porn, hamburger, gioia tauro, panini, tex mex">
 
         <link rel="stylesheet" href="css/stylesheet_menu.css">
+        <link rel="stylesheet" href="css/stylesheet_general.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <script src="js/script.js"></script>
 
@@ -16,19 +17,24 @@
         <div class="promo-showcase">
             <div class="promo-topnav">
                 <img class="logo" src="images/logo.png" alt="logo">
-                <div class="topnav" id="myTopnav">
-                    <a href="javascript:void(0);" class="icon" onclick="topnavFunction()">
-                        <i class="fa fa-bars"></i></a>
-                    <a href="index.html">Home</a>
-                    <a href="menu.html">Menu'</a>
-                    <a href="babies.html">Menu' Bambini</a>
-                    <a href="#">Promozioni</a>
-                    <!-- <a href="en/index.html">English Version</a> -->
-                </div>
+                <nav>
+                    <input type="checkbox" id="check">
+                    <label for="check" class="checkbtn">
+                        <i class="fa fa-bars"></i>
+                    </label>
+                    
+                    <ul>
+                        <li><a class="active" href="index.html">Home</a></li>
+                        <li><a href="menu.html">Menu'</a></li>
+                        <li><a href="babies.html">Menu' Bambini</a></li>
+                        <li><a href="promo.html">Promozioni</a></li>
+                    </ul>
+                </nav>
             </div>
             <header>
                 <div class="title-page">
                     <h1>Le Promozioni</h1>
+                    
                 </div>
             </header>
         </div>
@@ -38,10 +44,7 @@
             <figure id="promo1"><img src="samples/blonde_with_burger_promo.png"></figure>
 
             <div id="promo-section-1-text">
-                <!--<h2>Another One Bite...s The Dust</h2> -->
-
-                <!-- <h2>Love is in the air!</h2> -->
-                <!-- <p>Assapora lo swing degli anni 50' anche da casa grazie al servizio takeaway.</p> <p> E ricorda: the more, the better! ogni 3 asporti un dolce omaggio.</p> -->
+                
                 <p>Abbiamo tante novita' in serbo... seguici sui nostri social per non perderne neppure una!</p>
                 
                 <hr>
@@ -51,7 +54,15 @@
             <figure id="promo2"><img src="samples/burger_promo.jpg"></figure>
         </div>
 
-        <!-- <div class="promo-section-2">
+        <!--IDEA MAI INSERITA
+        <h2>Another One Bite...s The Dust</h2>
+
+                <h2>Love is in the air!</h2> 
+                 <p>Assapora lo swing degli anni 50' anche da casa grazie al servizio takeaway.</p> <p> E ricorda: the more, the better! ogni 3 asporti un dolce omaggio.</p> 
+        -->
+
+        <!-- SAN VALENTINO PROMO
+        <div class="promo-section-2">
             <figure><img src="images/valentines.jpg" ></figure> 
             <div id="promo-section-2-text">
                  <h2>Friday night fever</h2>
@@ -62,27 +73,5 @@
             </div> 
         </div> -->
 
-
-
-
-        <!-- <footer>
-            <div class="footer-section">
-                <div class="contacts">
-                    <h2>Contatti</h2>
-                    <p>Chiamaci o prenota direttamente su Whatsapp tramite il numero di telefono! <br> tel. 334\7217228 o al 0966\52233</p>
-                </div>
-
-                <div class="position">
-                    <h2>La nostra posizione</h2>
-                    <p>Ci troviamo in via SP.1, 336 <br> Uscita autostradale direzione Gioia Tauro  avanzate per circa 600 metri fino ad intravedere il nostro locale alla vostra sinistra</p>
-                </div>
-
-                <div class="social">
-                    <h2>Social</h2>
-                    <a href="https://www.facebook.com/greaseamericangrillgioiatauro/?locale=it_IT" target="_blank" class="fa fa-facebook"></a>
-                    <a href="https://www.instagram.com/greaseamericangrill_gioiatauro/?hl=it" target="_blank" class="fa fa-instagram"></a>
-                </div>
-            </div>
-        </footer> -->
     </body>
 </html>
